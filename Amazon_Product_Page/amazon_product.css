@@ -1,0 +1,54 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+a{
+    color: #007185;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.main {
+    padding-right: 20px;
+}
+
+.info {
+    padding-left: 20px;
+}
+
+.title {
+    font-weight: lighter;
+}
+
+.book_cover_img {
+    box-shadow: 0 2px 5px black;
+    width: 300px;
+}
+
+.rating {
+    width: 150px;
+}
+
+.breadcrumb_nav{
+    color: #565959;
+}
+
+.author{
+    font-size: 1rem;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: white;
+    color: #3e3f3f;
+    border: 2px solid #3e3f3f;
+    border-radius: 40px;
+}
