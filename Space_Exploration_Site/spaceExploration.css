@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    color: #82a5ca;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+}
+
+#hero {
+    background-image: url("img/galaxy.gif");
+    background-size: cover;
+    padding: 10px 0 40px 0;
+}
+
+.btn {
+    padding: 6px 12px;
+    background-color: white;
+    border: none;
+    /*font-family: inherit; it can also work to change the button's font*/ 
+    font-family: "Orbitron", sans-serif;
+    color: #82a5ca;
+    font-weight: 800;
+}
+
+/*there is another site for fonts: 1001fonts.com in case if google fonts doesn't have font you need. to use it you should download the font, add it in your project folder and write this code in css:
+@font-face {
+arc: url("[The source of font]");
+font-family: [name of font];
+}
+
+to use it: 
+h1 {
+font-family: [name of font];
+}
+*/
+
+#underline {
+    border-bottom: 4px solid white;
+}
+
+#main_logo {
+    width: 100px;
+}
+
+/*Shadows
+text-shadow: 5px(horizontal, it means shadow is on the right, -5px shadow is on the left) 5px(vertical, it means shadow is on the down, -5px shadow is on top) 5px(blur of shadow) black(color of shadow)*/
+
+#title {
+    text-shadow: 0px 0px 4px black;
+}

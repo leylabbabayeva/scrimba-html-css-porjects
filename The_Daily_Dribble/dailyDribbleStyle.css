@@ -1,0 +1,66 @@
+body {
+    background-color: #FDFFEB;
+    text-align: center;
+}
+
+img {
+    width: 700px;
+}
+
+
+.dribbleName {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 58px;
+    font-style: normal;
+    margin-top: 35px;
+    color: #528E6C;
+  }
+
+.info {
+        font-family: "Crimson Text", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 23px;
+        font-weight: 15;
+  }
+
+.email {
+    display: block;
+    margin: 20px;
+  }
+
+.email input {
+    width: 100%; /* Makes it full width of the parent div */
+    max-width: 300px; /* Optional: Sets a max width */
+    height: 30px; /* Adjust height */
+    font-size: 18px; /* Increases text size */
+    padding: 10px; /* Adds inner spacing */
+    border: 2px solid #ccc; /* Optional: Makes the border more visible */
+    border-radius: 8px; /* Optional: Rounds the corners */
+  }
+
+.btn {
+    display: block;
+    margin: 20px;
+  }
+
+.btn button {
+    width: 100%; /* Makes it full width of the parent div */
+    max-width: 100px; /* Optional: Sets a max width */
+    height: 50px; /* Adjust height */
+    font-size: 18px; /* Increases text size */
+    padding: 0px; /* Adds inner spacing */
+    border: 2px solid #ccc; /* Optional: Makes the border more visible */
+    border-radius: 8px; /* Optional: Rounds the corners */
+  }
+
+
+.terms {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 15;
+}

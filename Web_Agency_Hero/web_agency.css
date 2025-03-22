@@ -1,0 +1,41 @@
+body{
+    font-family: "Jost", sans-serif;
+    font-weight: 600;
+    color: #020202;
+    background-image: url("img/agency.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 150px;
+}
+
+h1{
+    font-size: 70px;
+    font-weight: bolder;
+    text-shadow: 0 0 20px white;
+}
+
+p{
+    font-size: 30px;
+    text-shadow: 0 0 10px #ffffff;
+}
+
+button{
+    background-color: #0ea5e9;
+    color: #ffffff;
+    border: none;
+    padding: 15px 25px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.information{
+    max-width: 600px; /* Adjust as needed */
+    padding: 60px 50px;
+    height: 92vh;
+    margin: 0;
+    text-align: left;
+}
+
+#black_border{
+    border-bottom: 4px solid #020202;
+}
