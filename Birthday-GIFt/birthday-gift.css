@@ -1,0 +1,97 @@
+body {
+    background: linear-gradient(#4C585B, #F4EDD3);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+    color: #F4EDD3;
+    text-align: center;
+    font-family: "Happy Monkey", system-ui;
+}
+
+h1, h2, h3, h4, p {
+  text-shadow: 0px 0px 1px black;
+}
+
+#bday-age {
+    margin: 15px 0 20px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #F4EDD3;
+    color: #4C585B;
+}
+
+#bday-date {
+    margin: 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #F4EDD3;
+    color: #4C585B;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bff-image {
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+    border: 6px solid #F4EDD3;
+}
+
+#gift-section-happy, #gift-section-hot, #gift-section-diva, #gift-section-monroe, #gift-section-kiss {
+    margin-top: 50px;
+}
+
+.gift-intro {
+    margin-bottom: 10px;
+}
+
+#hint {
+    margin-top: 0;
+}
+
+#gift-happy-img, #gift-hot-img, #gift-diva-img, #gift-monroe-img, #gift-kiss-img {
+    background-image: url("img/gift-wrap.jpg");
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 5px solid #4C585B;
+}
+
+#gift-happy-img:hover {
+    background-image: url("img/happy.gif");
+}
+
+#gift-hot-img:hover {
+    background-image: url("img/hot.gif");
+}
+
+#gift-diva-img:hover {
+    background-image: url("img/diva.gif");
+}
+
+#gift-monroe-img:hover {
+    background-image: url("img/marilyn-monroe.gif");
+}
+
+#gift-kiss-img:hover {
+    width: 700px;
+    background-image: url("img/kissing-cat.gif");
+}
+
+#footer {
+    color: #4C585B;
+    margin: 50px auto;
+}
+
+#footer-link {
+    color: #4C585B;
+}
+
