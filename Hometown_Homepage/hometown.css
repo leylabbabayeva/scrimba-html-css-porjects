@@ -1,0 +1,104 @@
+body {
+    font-family: "Schibsted Grotesk", sans-serif;
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+div {
+    padding-top: 30px;
+}
+
+.header {
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    height: 500px;
+    padding-top: 60px;
+}
+
+#title-header {
+    background-color: white;
+    border-radius: 5px;
+    color: rgb(54, 47, 47);
+    font-size: 60px;
+    margin: 80px 520px;
+    padding: 5px 10px;
+}
+
+h2 {
+    background-color: rgb(34, 32, 32);
+    color: white;
+    font-size: 40px;
+    margin: 60px 200px;
+    padding: 20px 4px;
+    border-radius: 5px;
+}
+
+.main {
+    height: 750px;
+    margin: 0;
+}
+
+#title-main {
+    font-size: 30px;
+}
+
+
+.places {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.places-img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.places-img:hover {
+    width: 220px;
+}
+
+#ateshgah-info, #icherisheher-info, #bibi-heybat-mosque-info {
+    width: 300px;
+}
+
+.footer {
+    background-color:#ecb176a6;
+    height: 500px;
+    margin: 0;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #FED8B1;
+}
+
+.info-div{
+    height: 280px;
+    width: 600px;
+    margin-top: 75px;
+    background-color:#6F4E37;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 3px solid #FED8B1;
+}
+
+#footer-img{
+    width: 250px;
+    height: 250px;
+    margin-left: 20px;
+}
+
+
+#information{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+#footer-title{
+    margin-top: 10px;
+    font-size: 30px;
+}
